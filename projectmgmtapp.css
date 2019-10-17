@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px 5px 5px 10px;
+    height: 35px;
+}
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 93vh;
+    height: auto;
+}
+nav {
+    background-color: grey;
+    width:22%;
+    padding: 50px 0 0 50px;
+}
+
+main {
+    background-color: beige;
+    width: 75%;
+    padding: 24px;
+
+}
+
+button {
+    background-color: green;
+    color: white;
+    height: 55px;
+    width: 10%;
+    min-width:70px;
+    border: none;
+    
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    padding-left: 15px; 
+}
+
+.spacingbutton{
+    display:flex;
+    justify-content: space-between;
+}
+
+.projectcard {
+    background-color: grey;
+    color: white;
+    height: 125px;
+    width: 30%;
+    padding: 15px;
+}
+.projects{
+    display: flex;
+    justify-content: space-between; 
+}
+.test {
+    display: none;
+}

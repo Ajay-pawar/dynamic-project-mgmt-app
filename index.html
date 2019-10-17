@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practice Proj Mgmt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="projectmgmtapp.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <span onclick="toggleMenu()"> &#9776;</span> Project Management App
+        </div>
+    </header>
+    <div class="mainContainer">
+        <nav id="menuLeft">
+            <ul id="menulist"><b>Menu</b>
+
+            </ul>
+        </nav>
+        <main id="contentRight">
+            <div class="spacingbutton">
+                <input type="text" id="addnewboard" placeholder="eg. New Board Name" width: 80% height="40px">
+                <button type="button" onclick="addBoard(addnewboard)"> Add Board</button>
+            </div>
+            <div id="passprojid">
+                <!--    <div class="test" id=boardId>
+                    <p>Board Name</p>
+                        <div class="projects" id=cardId>
+                            <div class="projectcard">
+                                <p>Project 1</p>
+                                <ul>
+                                    <li>Task 1</li>
+                                    <li>Task 2</li>
+                                </ul>
+                            </div>
+                        </div>    
+                </div>
+            </div>-->
+
+        </main>
+    </div>
+
+    <script src="projectmgmtapp.js"></script>
+</body>
+
+</html>
